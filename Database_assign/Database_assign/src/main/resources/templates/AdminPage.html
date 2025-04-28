@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản trị viên</title>
+    <link rel="stylesheet" href="/css/AdminPageStyle.css">
+    <style>
+        .container-fluid {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px; /* Đặt chiều rộng cho thanh điều hướng */
+    height: 100vh; /* Chiếm hết chiều cao màn hình */
+    background-color: #2980b9; /* Màu nền cho thanh điều hướng */
+    position: fixed; /* Cố định thanh bên trái màn hình */
+    top: 0;
+    left: 0;
+    padding-top: 20px; /* Khoảng cách trên */
+}
+
+ul {
+    padding: 0;
+    list-style: none; /* Bỏ dấu chấm đầu dòng */
+}
+
+li {
+    margin: 20px 0; /* Khoảng cách giữa các mục */
+}
+
+a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #bdc3c7; /* Màu chữ */
+    font-size: 16px;
+    display: block; /* Để a chiếm hết chiều rộng của li */
+    padding: 10px 15px;
+}
+
+a:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+    </style>
+</head>
+
+<body id="app">
+    <!-- Navbar -->
+    <nav class="container-fluid">
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#ManageProduct">Quản lý sản phẩm</a></li>
+            <li><a href="#ManageCustomer">Quản lý khách hàng</a></li>
+            <li><a href="#ManageOrder">Quản lý đơn hàng</a></li>
+            <li><a href="#ManageSystem">Quản lý hệ thống</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
